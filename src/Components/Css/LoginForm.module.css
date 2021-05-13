@@ -1,0 +1,47 @@
+
+
+.loginForm{
+    width:400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 200px    auto;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-bottom: -100px;
+}
+
+.loginForm input{
+    width: 250px;
+    height: 30px;
+    text-indent: 20px;
+    border: none;
+    border-bottom: 1px solid orange;
+}
+::placeholder{
+    font-size:15px;
+    font-weight: 900px;
+    color: orange;
+}
+.loginForm input[type="submit"]
+{
+    border: none;
+    background-color: orange;
+    border-radius: 10px;
+    
+}
+
+.loginForm input[type="submit"]:hover{
+    background-color:black;
+    opacity: .5;
+    color: whitesmoke;
+}
+
+.loginForm input[type="submit"]:active{
+    outline: 0px;
+}
+
+
